@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  
+    background-image: url(../img/back.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.contenedor-form img{
+    width: 100%;
+    transform: scale(0.9);
+}
+.contenedor-form p{
+
+    font-size: 15px;
+    font-weight: 600;
+
+    color: rgb(255, 255, 255);
+    margin: 2% 0;
+    text-transform: uppercase;
+}
+.contenedor-form{
+    display: none;
+    width: 20%;
+    padding: 2%;
+    background: rgba(54, 54, 54, 0.651);
+    margin: 0 5%;
+}
+.contenedor-form input{
+    width: 100%;
+}
+input{
+    
+    font-weight: 600;
+    font-size:  20px;
+    color:  rgb(255, 255, 255);
+    outline: none;
+    background: none;
+    border-bottom: 2px solid rgb(0, 255, 136);
+    transition: .2s ease-in-out;
+}
+input:hover{
+    background: #ffffff42;
+}
+input:focus{
+    background: rgb(0, 255, 136);
+    transform: scale(1.1);
+    border-bottom: 4px solid #fff;
+    color: #000;
+}
+.error{
+    color: #fff;
+    width: 100%;
+    margin: 2% 0;
+   
+}
+#procesar{
+    padding: 1%;
+    margin: 5% 2%;
+    background: #141d26;
+    border: 2px solid #fff;
+    color: #fff;
+}
+#agregar,#mostrar{
+    margin: 2% 40%;
+    padding: 1%;
+    background: #141d26;
+    border: 2px solid #fff;
+    font-weight: 600;
+    color: #fff;
+}
+#mostrar:hover,#agregar:hover,#procesar:hover{
+    background: rgb(0, 255, 136);
+    color:#141d26;
+}
+#excento_iva{
+    width: 30%;
+    border: 3px solid rgb(0, 255, 136);
+    transform: scale(1.5);
+}
+#select{
+    background: #141d26;
+    color: #fff;
+    width: 100%;
+}
+#mensaje {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 2%;
+    width: 80%;
+    margin: 2% 5% ;
+}
+.contenedor-res{
+    margin: 5% 2%;
+    width: 96%;
+    display: none;
+}
+#table{
+    
+    width: 100%;
+    display: none;
+    background: rgb(46, 46, 46);
+    text-align: center;
+    color: #000;
+}
+.table th {
+    
+    color: #fff;
+    padding: 2%;
+}
+.table td {
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: solid 2px rgb(0, 255, 136); 
+    padding: 2%;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Desafio 2 Javascript 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+<body>
+
+<div id="mensaje"> <p>Registro Exitoso</p></div>
+  <input type="button" value="Agregar Productos" name="agregar" id="agregar">
+  <input type="button" value="Mostrar Productos" name="mostrar" id="mostrar">
+    <div class="contenedor-form" id="form-div">
+        <img src="img/logo-fondo-oscuro - copia.png" alt="">
+        <form name="form1" id="form1">
+            <label for="codigo_prod"> <p>Codigo del Producto </p></label>
+            <input type="text" name="codigo_prod" id="codigo_prod">
+            <div class="error" id="error_codigo"></div>
+
+            <label for="nombre_prod"> <p>Nombre del producto </p></label>
+            <input type="text" name="nombre_prod" id="nombre_prod" >
+            <div class="error" id="error_nombre"></div>
+
+            <label for="stock_prod"> <p>Stock </p></label>
+            <input type="text" name="stock_prod" id="stock_prod" >
+            <div class="error" id="error_stock"></div>
+
+
+            
+            <label for="precio_prod"> <p>Precio por Unidad </p></label>
+            <input type="text" name="precio_prod" id="precio_prod" >
+            <div class="error" id="error_precio"></div>
+
+
+            <label for="cant_prod"><p>Cantidad </p></label>
+            <input type="text" name="cant_prod" id="cant_prod">
+            <div class="error" id="error_cant"></div>
+
+            <label for="excento_iva"><p>Exento I.V.A</p></label>
+            <input type="checkbox" name="exento_iva" id="exento_iva" value="No">
+
+            <label for="select"><p>Categorias</p></label>
+            <select name="select" id="select">
+                <option value="" disabled selected><p>Seleccionar</p></option>
+                <option value="Moviles"><p>Moviles</p></option>
+                <option value="Televisores"><p>Televisores</p></option>
+                <option value="Computadoras"><p>Computadoras</p></option>
+                <option value="Electrodomesticos"><p>Electrodomesticos</p></option>
+            </select>
+            <div class="error" id="error_select"></div>
+
+            
+            <input type="button" value="Procesar Producto" name="procesar" id="procesar">
+        </form>
+    </div>
+    <div class="contenedor-res">
+        <table class="table" id="table">
+            <thead>
+            <tr>
+                <th>Codigo Producto</th>
+                <th>Nombre Producto</th>
+                <th>Stock Disponible</th>
+                <th>Precio por Unidad</th>
+                <th>Cantidad</th>
+                <th>Exento I.V.A</th>
+                <th>Categoria</th>
+            </tr>
+            </thead>
+            
+        </table>
+
+
+    </div>
+
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="js/main.js"></script>
+</html>

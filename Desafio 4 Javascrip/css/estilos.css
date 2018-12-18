@@ -1,0 +1,36 @@
+body
+{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1
+{
+    color: gold;
+    text-align: center;
+}
+h5
+{
+    color: gold;
+    font-weight:bold;
+    font-size: 22px;
+}
+
+p
+{
+    color: rgb(0, 174, 255);
+    font-size: 22px;
+    font-weight:bold;
+}
+h4
+{
+    color: red  ;
+    font-weight:bold;
+    font-size: 22px;
+}
+
+#buscar
+{
+    width: 250px;
+}

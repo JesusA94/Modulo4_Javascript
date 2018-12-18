@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: sans-serif;
+}
+
+.contenedor {
+  padding: 2em;
+}
+
+header {
+  text-align: center;
+}
+
+header nav {
+  background: turquoise;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 2em;
+  background: #82ebe0;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.galeria {
+  padding: 2em;
+  height: 550px;
+}
+
+.imagen {
+  background: #1aa093;
+  width: 30%;
+  color: #fff;
+  float: left;
+  margin-right: 2.2em;
+}
+
+.imagen .contenedor {
+  padding: 1em;
+}
+
+.imagen img {
+  width: 100%;
+}
+
+.imagen img:hover {
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
+}
+
+.imagen:hover {
+  background: yellow;
+}
